@@ -10,3 +10,7 @@ def using_unshift (array, element)
   boroughs_in_nyc.unshift(@new_neighborhood)
 end
 
+def using_pop (array)
+  @continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
+  @deleted_string = array.pop("Antarctica")
+end
